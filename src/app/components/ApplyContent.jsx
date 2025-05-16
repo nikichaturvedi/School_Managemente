@@ -2,7 +2,7 @@ import React from 'react';
 
 const ApplyContent = () => {
     return (
-        <section className="bg-white dark:bg-gray-900 text-[#435370] dark:text-gray-100 mt-5 px-4">
+        <section className="bg-white dark:bg-gray-900 text-[#435370] dark:text-gray-100 pt-7 px-4">
             <div className="max-w-6xl mx-auto space-y-16">
 
                 <div className="text-left">
@@ -16,7 +16,7 @@ const ApplyContent = () => {
                     </p>
                 </div>
 
-                <div className="mt-8 max-w-2xl mx-auto grid gap-4 grid-cols-1 sm:grid-cols-3">
+                <div className="pt-3 max-w-2xl mx-auto grid gap-4 grid-cols-1 sm:grid-cols-3">
                     <a
                         href="/online-application"
                         className="flex items-center justify-center text-center mx-8 sm:mx-0 px-3 py-3 bg-[#279989] text-white font-semibold shadow-md hover:bg-[#207c77] transition duration-300"

@@ -1,6 +1,6 @@
 export default function Academics() {
   return (
-    <section className="bg-white mt-10">
+    <section className="bg-white pt-10">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-[#4a6088] text-left mb-6">
           Academics

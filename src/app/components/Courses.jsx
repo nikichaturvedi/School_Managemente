@@ -5,8 +5,8 @@ import { courses } from "@/app/data/courses";
 export default function Courses() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-        <p className="text-2xl  text-[#506691] text-left mb-2">Find course that suit you</p>
-      <h1 className="text-4xl font-bold text-[#163269] text-left mb-8"> Course Search</h1>
+        <p className="text-2xl  text-[#506691] text-left pb-2">Find course that suit you</p>
+      <h1 className="text-4xl font-bold text-[#163269] text-left pb-8"> Course Search</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {courses.map((course, index) => (
           <div

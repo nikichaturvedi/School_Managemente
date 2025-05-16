@@ -28,10 +28,10 @@ export default function Teachers() {
   return (
     <section className="py-16 bg-gray-100">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-4xl font-extrabold text-center text-[#435370] mb-4">
+        <h2 className="text-4xl font-extrabold text-center text-[#435370] pb-4">
           We're Here to Help!
         </h2>
-        <p className="text-lg text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+        <p className="text-lg text-center text-gray-600 pb-12 max-w-2xl mx-auto">
           Our admissions team is here to support you throughout every step of the application process.
         </p>
 

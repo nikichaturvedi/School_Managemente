@@ -46,10 +46,10 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="max-w-6xl mx-auto py-4 px-8 mt-4 bg-white   space-y-10"
+      className="max-w-6xl mx-auto py-6 px-8 pt-8 bg-white   space-y-10"
     >
       <header className="text-center space-y-3">
-        <h2 className="text-4xl font-extrabold text-[#435370]">Interested in learning more about Seven Unique?</h2>
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl  font-extrabold text-[#435370]">Interested in learning more about Seven Unique?</h2>
         <p className="text-[#435370] text-lg">
           Please complete the form below and a member of our Admissions team will reach out to you soon.
         </p>
@@ -59,7 +59,7 @@ const ContactForm = () => {
       {/* Parent Info */}
       <section className="space-y-4">
         <p><span className="text-red-500">*</span> Required</p>
-        <h3 className="text-3xl text-[#435370] font-semibold  pb-1">Parent / Guardian Information</h3>
+        <h3 className="text-2xl sm:text-3xl lg:text-3xl text-[#435370] font-semibold  pb-1">Parent / Guardian Information</h3>
         <p className="block font-bold mb-3">Name: <span className="text-red-500">*</span></p>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -141,7 +141,7 @@ const ContactForm = () => {
 
       {/* Candidate Info */}
       <section className="space-y-4">
-        <h3 className="text-3xl font-semibold text-[#435370]  pb-1">Candidate Information</h3>
+        <h3 className="text-2xl sm:text-3xl lg:text-3xl font-semibold text-[#435370]  pb-1">Candidate Information</h3>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <input name="childFirstName" type="text" placeholder="Child's First Name *" required className={inputClass} onChange={handleChange} />

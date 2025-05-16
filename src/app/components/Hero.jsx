@@ -60,29 +60,34 @@ export default function Hero() {
       {/* Info Boxes Section */}
       <section className="relative z-30 mt-[-60px]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
-          <div className="grid grid-cols- sm:grid-cols-3 gap-4 sm:gap-6">
-            <div className="bg-white p-4 sm:p-6 rounded-lg shadow-lg hover:shadow-xl transition-all">
-              <div className="text-3xl sm:text-4xl text-[#6d8d54] mb-3 sm:mb-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
+            {/* Graduation Card */}
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all flex flex-col items-center justify-center text-center">
+              <div className="text-4xl text-[#6d8d54] mb-4">
                 <FaGraduationCap />
               </div>
-              <h3 className="text-lg sm:text-xl font-semibold">Graduation</h3>
-            </div>
-            <div className="bg-white p-4 sm:p-6 rounded-lg shadow-lg hover:shadow-xl transition-all">
-              <div className="text-3xl sm:text-4xl text-[#6d8d54] mb-3 sm:mb-4">
-                <FaBasketballBall />
-              </div>
-              <h3 className="text-lg sm:text-xl font-semibold">Athletics</h3>
+              <h3 className="text-xl text-gray-700 font-semibold">Graduation</h3>
             </div>
 
-            <div className="bg-white p-4 sm:p-6 rounded-lg shadow-lg hover:shadow-xl transition-all">
-              <div className="text-3xl sm:text-4xl text-[#6d8d54] mb-3 sm:mb-4">
+            {/* Athletics Card */}
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all flex flex-col items-center justify-center text-center">
+              <div className="text-4xl text-[#6d8d54] mb-4">
+                <FaBasketballBall />
+              </div>
+              <h3 className="text-xl text-gray-700 font-semibold">Athletics</h3>
+            </div>
+
+            {/* Social Life Card */}
+            <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all flex flex-col items-center justify-center text-center">
+              <div className="text-4xl text-[#6d8d54] mb-4">
                 <FaUsers />
               </div>
-              <h3 className="text-lg sm:text-xl font-semibold">Social Life</h3>
+              <h3 className="text-xl text-gray-700 font-semibold">Social Life</h3>
             </div>
           </div>
         </div>
       </section>
+
     </>
   );
 }

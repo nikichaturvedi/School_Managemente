@@ -31,7 +31,7 @@ export default function OnlineData() {
     return (
         <section className="bg-gray-100 ">
             <div className="max-w-7xl mx-auto px-6">
-                <h2 className="text-4xl font-extrabold text-center text-[#435370] pt-8 mb-12">
+                <h2 className="text-4xl font-extrabold text-center text-[#435370] pt-8 pb-12">
                     Apply Online in 4 Easy Steps
                 </h2>
                 <div className="grid gap-10 grid-cols-1 sm:grid-cols-2">
@@ -47,7 +47,7 @@ export default function OnlineData() {
                         </div>
                     ))}
                 </div>
-                <div className="text-center mt-16">
+                <div className="text-center pt-16">
                     <a
                         href="/contact-us"
                         className="inline-block px-6 py-3 bg-[#5c6f94] text-white font-semibold shadow-md hover:bg-[#435370] transition duration-300 rounded"

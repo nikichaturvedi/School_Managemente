@@ -31,7 +31,7 @@ export default function HomeCards() {
     ];
 
     return (
-        <section className="mb-3 bg-white">
+        <section className="pb-3 bg-white">
             <div className="max-w-7xl mx-auto px-6">
                 <h2 className="text-lg bg-[#feffff] px-8 sm:p-10 font-bold text-center  text-[#425780]">
                     The Seven Unique School is one of the best private day schools in Jaipur. We are a coeducational elementary and middle school for children from early education through eighth grade. Wyndcroft is recognized for its supportive and engaging community that promotes academic excellence and creates a strong foundation for each child's future achievement.

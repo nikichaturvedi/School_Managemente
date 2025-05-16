@@ -10,7 +10,7 @@ const campusHighlights = [
     description: 'Thousands of books, digital resources, and quiet study zones.',
     image: '/library.jpg'
   },
-   {
+  {
     title: 'Art Room',
     description: 'Creative space for painting, sculpture, and crafts.',
     image: '/artroom.jpg'
@@ -79,13 +79,13 @@ export default function AroundTheCampus() {
         <Slider {...settings}>
           {campusHighlights.map((item, index) => (
             <div key={index} className="px-3">
-              <div className="bg-gray-50 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+              <div className="h-[320px] flex flex-col bg-gray-50 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
                 <img
                   src={item.image}
                   alt={item.title}
                   className="h-52 w-full object-cover"
                 />
-                <div className="p-5 text-left">
+                <div className="p-5 flex-1 flex flex-col justify-between">
                   <h3 className="text-xl font-semibold text-[#163269] mb-2">{item.title}</h3>
                   <p className="text-gray-700 text-sm">{item.description}</p>
                 </div>
