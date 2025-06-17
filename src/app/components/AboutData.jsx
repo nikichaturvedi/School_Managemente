@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGraduationCap, FaLightbulb } from 'react-icons/fa';
-
+import Link from 'next/link';
 const AboutData = () => {
     return (
         <section className="bg-white dark:bg-gray-900 text-[#435370] dark:text-gray-100 py-16 px-4">
@@ -52,24 +52,24 @@ const AboutData = () => {
                 </div>
 
                 <div className="pt-6 max-w-2xl mx-auto  grid gap-4 grid-cols-1 sm:grid-cols-3">
-                    <a
+                    <Link
                         href="/online-application"
                         className="block text-center mx-10 sm:mx-0 px-3 py-3 bg-[#279989] text-white font-semibold  shadow-md hover:bg-[#207c77] transition duration-300"
                     >
                         How to Apply
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         href="/contact-us"
                         className="block text-center mx-10 sm:mx-0 px-3 py-3 bg-yellow-500 text-white font-semibold  shadow-md hover:bg-yellow-600 transition duration-300"
                     >
                         Request Information
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         href="/contact-us"
                         className="block text-center mx-10 sm:mx-0 px-6 py-3 bg-[#44883E] text-white font-semibold  shadow-md hover:bg-[#4e6e4c] transition duration-300"
                     >
                         Schedule Your Visit
-                    </a>
+                    </Link>
                 </div>
 
 

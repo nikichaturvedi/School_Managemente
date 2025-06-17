@@ -121,18 +121,18 @@ export default function Faculty() {
     };
 
     return (
-        <section className="py-16 bg-gray-50">
-            <div className="max-w-7xl mx-auto px-6">
-                <h2 className="text-4xl font-extrabold text-left text-[#4a6088] mb-6">
+        <section className="py-5 mb-5 md:py-16 bg-gray-50">
+            <div className="max-w-7xl mx-auto px-2">
+                <h2 className="text-3xl sm:text-4xl px-4 sm:px-6 font-extrabold text-left text-[#4a6088] mb-6">
                     Meet Our Faculty
                 </h2>
-                <p className="text-lg text-left text-[#4a6088] mb-12">
+                <p className="text-lg text-left text-[#4a6088] px-4 sm:px-6 pb-6 sm:pb-8 md:pb-12">
                     Our faculty members are experienced, dedicated, and passionate about helping students succeed.
                 </p>
 
                 <Slider {...settings}>
                     {facultyMembers.map((faculty, index) => (
-                        <div key={index} className="px-4"> {/* Margin between slides */}
+                        <div key={index} className="px-2.5 md:px-4"> {/* Margin between slides */}
                             <div className="bg-white rounded-lg shadow-md overflow-hidden p-6 h-full">
                                 <div className="flex items-start mb-4">
                                     <div className="w-32 h-32 rounded-full overflow-hidden mr-6 flex-shrink-0">

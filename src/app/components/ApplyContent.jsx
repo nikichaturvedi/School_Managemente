@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 const ApplyContent = () => {
     return (
         <section className="bg-white dark:bg-gray-900 text-[#435370] dark:text-gray-100 pt-7 px-4">
@@ -17,24 +17,24 @@ const ApplyContent = () => {
                 </div>
 
                 <div className="pt-3 max-w-2xl mx-auto grid gap-4 grid-cols-1 sm:grid-cols-3">
-                    <a
+                    <Link
                         href="/online-application"
                         className="flex items-center justify-center text-center mx-8 sm:mx-0 px-3 py-3 bg-[#279989] text-white font-semibold shadow-md hover:bg-[#207c77] transition duration-300"
                     >
                         How to Apply
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         href="/contact-us"
                         className="flex items-center justify-center text-center mx-8 sm:mx-0 px-3 py-3 bg-yellow-500 text-white font-semibold shadow-md hover:bg-yellow-600 transition duration-300"
                     >
                         Request Information
-                    </a>
-                    <a
-                        href="/#"
+                    </Link>
+                    <Link
+                        href="/"
                         className="flex items-center justify-center text-center mx-8 sm:mx-0 px-6 py-3 bg-[#44883E] text-white font-semibold shadow-md hover:bg-[#4e6e4c] transition duration-300"
                     >
                         Call 610-326-0544 to Schedule Your Visit
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>

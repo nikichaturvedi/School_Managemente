@@ -54,7 +54,7 @@ const fadeInUp = {
 
 export default function UniversityLife() {
   return (
-    <section className="bg-white pt-12 px-4 sm:px-6 lg:px-12">
+    <section className="bg-white pt-12 px-3 sm:px-6 lg:px-12">
       <div className="max-w-7xl mx-auto">
         {categories.map((cat, idx) => (
           <motion.div
@@ -66,9 +66,9 @@ export default function UniversityLife() {
             variants={fadeInUp}
             className={`flex flex-col lg:flex-row ${
               idx % 2 !== 0 ? "lg:flex-row-reverse" : ""
-            } items-center mb-10 gap-6 lg:gap-10`}
+            } items-center mb-7 md:mb-10 gap-6 lg:gap-10`}
           >
-            <h3 className="text-3xl font-bold underline underline-offset-8 decoration-[#279989] text-[#163269] mb-4 w-full order-1 lg:hidden">
+            <h3 className="text-3xl font-bold px-2 underline underline-offset-8 decoration-[#279989] text-[#163269] mb-1  md:mb-4 w-full order-1 lg:hidden">
               {cat.title}
             </h3>
 
@@ -84,7 +84,7 @@ export default function UniversityLife() {
               <h3 className="hidden lg:block text-3xl font-bold underline underline-offset-8 decoration-[#279989] text-[#163269] mb-4">
                 {cat.title}
               </h3>
-              <p className="text-[#163269] text-lg leading-relaxed">{cat.description}</p>
+              <p className="text-[#163269] text-md md:text-lg leading-relaxed">{cat.description}</p>
             </div>
           </motion.div>
         ))}

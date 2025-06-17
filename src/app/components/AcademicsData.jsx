@@ -45,10 +45,6 @@ export default function Academics() {
             </p>
           </div>
         </div>
-
-        <div className="text-center mt-12">
-         <h3 className="text-3xl font-semibold text-[#4c5f86] mb-2">Discover More About the Curriculum at Wyndcroft</h3>
-        </div>
       </div>
     </section>
   );

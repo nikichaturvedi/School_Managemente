@@ -35,7 +35,7 @@ export default function Teachers() {
           Our admissions team is here to support you throughout every step of the application process.
         </p>
 
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-10 sm:grid-cols-2  lg:grid-cols-3">
           {teachers.map((teacher, index) => (
             <div
               key={index}
