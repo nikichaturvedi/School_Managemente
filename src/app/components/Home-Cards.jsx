@@ -86,7 +86,7 @@ export default function HomeCards() {
                   {/* Short View */}
                   <div className={`flex flex-col items-center text-center transition-all ${isMobile && isActive ? 'hidden' : 'block'} ${!isMobile ? 'md:group-hover:hidden' : ''}`}>
                     <div className="relative w-32 h-32 mb-3 rounded-full border-4 border-white border-opacity-50 overflow-hidden">
-                      <Image
+                      <img
                         src={card.image}
                         alt={card.title}
                         fill
