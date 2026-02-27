@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 const ApplyContent = () => {
     return (
-        <section className="bg-white dark:bg-gray-900 text-[#435370] dark:text-gray-100 pt-7 px-4">
+        <section className="bg-white text-[#051e4d] pt-7 px-4">
             <div className="max-w-6xl mx-auto space-y-16">
 
                 <div className="text-left">

@@ -3,7 +3,7 @@ import { FaGraduationCap, FaLightbulb } from 'react-icons/fa';
 import Link from 'next/link';
 const AboutData = () => {
     return (
-        <section className="bg-white dark:bg-gray-900 text-[#435370] dark:text-gray-100 py-16 px-4">
+        <section className="bg-white text-[#04193f] py-16 px-4">
             <div className="max-w-6xl mx-auto space-y-16">
 
                 <div className="text-left">
@@ -15,22 +15,22 @@ const AboutData = () => {
 
                 <div className="grid md:grid-cols-2 gap-10">
 
-                    <div className="flex flex-col items-start bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-md transition hover:shadow-lg">
+                    <div className="flex flex-col items-start bg-gray-100 p-6 rounded-xl shadow-md transition hover:shadow-lg">
                         <div className="flex items-center mb-4">
                             <FaGraduationCap className="h-8 w-8 text-[#279989] mr-3" />
                             <h3 className="text-2xl font-semibold">Our Mission</h3>
                         </div>
-                        <p className="text-gray-700 dark:text-gray-300">
+                        <p className="text-gray-700">
                             To deliver a dynamic and inclusive learning environment that inspires academic excellence, cultivates leadership, and fosters a lifelong love for learning in every student.
                         </p>
                     </div>
 
-                    <div className="flex flex-col items-start bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-md transition hover:shadow-lg">
+                    <div className="flex flex-col items-start bg-gray-100 p-6 rounded-xl shadow-md transition hover:shadow-lg">
                         <div className="flex items-center mb-4">
                             <FaLightbulb className="h-8 w-8 text-yellow-500 mr-3" />
                             <h3 className="text-2xl font-semibold">Our Vision</h3>
                         </div>
-                        <p className="text-gray-700 dark:text-gray-300">
+                        <p className="text-gray-700">
                             To become a nationally recognized leader in secondary education, shaping students into compassionate global citizens and critical thinkers ready to lead in a changing world.
                         </p>
                     </div>
